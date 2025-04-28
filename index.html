@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas JavaScript + CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tarefa 1 -->
+        <div class="task-box">
+            <h2>Tarefa 1</h2>
+            <div id="olaMundo"></div>
+        </div>
+
+        <!-- Tarefa 2 -->
+        <div class="task-box">
+            <h2>Tarefa 2</h2>
+            <div id="resultadoSoma"></div>
+        </div>
+
+        <!-- Tarefa 3 -->
+        <div class="task-box">
+            <h2>Tarefa 3</h2>
+            <p id="textoPorId">Texto original (será alterado por ID).</p>
+            <button class="btn" onclick="alterarPorId()">Alterar por ID</button>
+        </div>
+
+        <!-- Tarefa 4 -->
+        <div class="task-box">
+            <h2>Tarefa 4</h2>
+            <p name="textoPorName">Texto original (será alterado por Name).</p>
+            <button class="btn" onclick="alterarPorName()">Alterar por Name</button>
+        </div>
+
+        <!-- Tarefa 5 -->
+        <div class="task-box">
+            <h2>Tarefa 5</h2>
+            <p class="classe-exemplo">Elemento 1 com classe.</p>
+            <p class="classe-exemplo">Elemento 2 com classe.</p>
+            <button class="btn" onclick="alterarPorClass()">Alterar por Class</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
