@@ -2,9 +2,14 @@
 document.getElementById('olaMundo').textContent = 'Olá Mundo!';
 
 // Tarefa 2
-const a = 15;
-const b = 25;
-document.getElementById('resultadoSoma').textContent = `Soma: ${a + b}`;
+function calcularSoma() {
+    const numero1 = parseFloat(document.getElementById('numero1').value) || 0;
+    const numero2 = parseFloat(document.getElementById('numero2').value) || 0;
+    const resultado = numero1 + numero2;
+    
+    document.getElementById('resultadoSoma').textContent = 
+        `Resultado: ${numero1} + ${numero2} = ${resultado}`;
+}
 
 // Tarefa 3
 function alterarPorId() {
